@@ -49,7 +49,7 @@ const CONFIG = {
     x: '',
     mastodon: '',
     researchGate: '',
-    facebook: 'https://www.facebook.com/share/1BhoY36vcQ/',
+    facebook: 'share/1BhoY36vcQ/',
     instagram: '',
     reddit: '',
     threads: '',
