@@ -47,7 +47,7 @@ const CONFIG = {
   social: {
     linkedin: 'crimsonnls',
     x: '',
-    mastodon: '@MohamedGonem',
+    mastodon: 'MohamedGonem@mastodon.social',
     researchGate: '',
     facebook: 'MohamedGonemCNL',
     instagram: 'crimson_cnl',
