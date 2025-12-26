@@ -43,7 +43,12 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of Mohamed Gonem', description: '', imageURL: '' },
+  seo: {
+  title: 'Portfolio of Mohamed Gonem',
+  description: 'Indie developer building Student Grader and other polished apps in Python, C#, and Flask.',
+  imageURL: 'https://avatars.githubusercontent.com/u/yourGitHubID?v=4',
+},
+
   social: {
     linkedin: 'crimsonnls',
     x: '',
@@ -71,25 +76,55 @@ const CONFIG = {
       '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'C#',
-    '.NET',
-    'Excel',
-    'Word',
-    'PowerPoint',
-    'Threat Awareness',
-    'Digital Hygiene',
-    'Data Protection',
-    'Network Fundamentals',
-  ],
+  // Programming & Frameworks
+  'Python',
+  'Flask',
+  'C#',
+  '.NET',
+  'Blazor',
+  'WinForms',
+  'Node.js',
+  'Semantic Release',
+  'PowerShell Automation',
+
+  // Software & Tools
+  'Git & GitHub',
+  'CI/CD',
+  'PyInstaller',
+  'Excel',
+  'Word',
+  'PowerPoint',
+
+  // Security & Networking
+  'Threat Awareness',
+  'Digital Hygiene',
+  'Data Protection',
+  'Network Fundamentals',
+
+  // Professional
+  'Workflow Automation',
+  'Debugging & Error Tracing',
+  'Open Source Etiquette',
+  'Documentation & README Design'
+],
+
   experiences: [
-    {
-      company: 'The Holding Company for Water and Wastewater',
-      position: 'Operating Technician',
-      from: 'October 2023',
-      to: 'Present',
-      companyLink: 'https://www.hcww.com.eg',
-    },
-  ],
+  {
+    company: 'The Holding Company for Water and Wastewater',
+    position: 'Operating Technician',
+    from: 'October 2023',
+    to: 'Present',
+    companyLink: 'https://www.hcww.com.eg',
+  },
+  {
+    company: 'Indie Developer & Founder',
+    position: 'Solo Developer / Product Builder',
+    from: '2024',
+    to: 'Present',
+    companyLink: 'https://github.com/OmegaCrimson',
+  },
+],
+
   certifications: [
     {
       name: 'Foundational C# Certification',
