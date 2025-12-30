@@ -82,7 +82,7 @@ const CONFIG = {
     'Git & GitHub',
     'CI/CD',
     'PyInstaller',
-    'Inno Setup (Inno Script Wizard)',
+    'Inno Setup',
     'Excel',
     'Word',
     'PowerPoint',
@@ -134,6 +134,12 @@ const CONFIG = {
       link: 'https://www.freecodecamp.org/certification/fcc-53810a4a-4cd4-41d1-9e18-1f3d18d58e08/foundational-c-sharp-with-microsoft',
     },
     {
+      name: 'Getting Started with Cybersecurity – IBM SkillsBuild',
+      body: 'An introductory course on cybersecurity principles, common threats, and basic protection strategies.',
+      year: '2025',
+      link: 'https://www.credly.com/badges/6838fcfb-8fef-4e04-9d6d-1fb0a8d88366/public_url',
+    },
+    {
       name: 'Introduction to Cybersecurity – Cisco Networking Academy',
       body: 'A recognized certification covering the fundamentals of cybersecurity, including threat types, attack methods, security principles, encryption basics, and network protection. Suitable for beginners in IT, networking, and security roles, and a solid foundation for advanced cybersecurity paths.',
       year: 'November 2025',
@@ -157,12 +163,6 @@ const CONFIG = {
       year: '2025',
       link: 'https://www.credly.com/badges/1e24dbad-ea08-402e-8e4f-4e2672c1d28d/public_url',
     },
-    {
-      name: 'Getting Started with Cybersecurity – IBM SkillsBuild',
-      body: 'An introductory course on cybersecurity principles, common threats, and basic protection strategies.',
-      year: '2025',
-      link: 'https://www.credly.com/badges/6838fcfb-8fef-4e04-9d6d-1fb0a8d88366/public_url',
-    },
   ],
   educations: [],
   publications: [],
@@ -172,11 +172,11 @@ const CONFIG = {
     limit: 2,
   },
   googleAnalytics: {
-    id: 'G-XXXXXXXXXX', // Replace with your actual GA4 ID
+    id: 'G-MBV5ZKNHE8',
   },
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'business',
     disableSwitch: false,
     respectPrefersColorScheme: false,
     displayAvatarRing: true,
