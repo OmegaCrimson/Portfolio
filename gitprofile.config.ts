@@ -1,54 +1,43 @@
-// gitprofile.config.ts
-
 const CONFIG = {
   github: {
-    username: 'OmegaCrimson', // Your GitHub org/user name. (This is the only required config)
+    username: 'OmegaCrimson',
   },
-  /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
-   */
   base: '/',
   projects: {
     github: {
-      display: true, // Display GitHub projects?
+      display: true,
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'automatic',
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        sortBy: 'stars',
+        limit: 8,
         exclude: {
-          forks: true, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          forks: true,
+          projects: [],
         },
       },
       manual: {
-        // Properties for manually specifying projects
-        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [],
       },
     },
     external: {
       header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
       projects: [
         {
           title: 'College Manager',
-          description:
-            'College Manager for managing students and grades.',
-          imageUrl:
-            'https://i.ibb.co/ymF8qn4m/banner-square.png',
+          description: 'College Manager for managing students and grades.',
+          imageUrl: 'https://i.ibb.co/ymF8qn4m/banner-square.png',
           link: 'https://nightangel5.gumroad.com/l/collegemanager',
         },
       ],
     },
   },
   seo: {
-  title: 'Portfolio of Mohamed Gonem',
-  description: 'Indie developer building Student Grader and other polished apps in Python, C#, and Flask.',
-  imageURL: 'https://avatars.githubusercontent.com/u/yourGitHubID?v=4',
-},
-
+    title: 'Portfolio of Mohamed Gonem',
+    description:
+      'Indie developer and systems technologist building cross-platform tools in Python, C#, and Flask. Creator of Student Grader and College Manager. Passionate about UI polish, workflow automation, and developer experience.',
+    imageURL: 'https://avatars.githubusercontent.com/u/yourGitHubID?v=4',
+  },
   social: {
     linkedin: 'crimsonnls',
     x: '',
@@ -58,13 +47,13 @@ const CONFIG = {
     instagram: 'crimson_cnl',
     reddit: '0megaCrimson',
     threads: '',
-    youtube: 'MohamedGonemCNL', // example: 'pewdiepie'
+    youtube: 'MohamedGonemCNL',
     udemy: '',
     dribbble: '',
     behance: '',
     medium: '',
     dev: '@mohamedgonem',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    stackoverflow: '',
     discord: 'oscrimson',
     telegram: '@myg_crimson',
     website: '',
@@ -72,59 +61,71 @@ const CONFIG = {
     email: 'crimson_cnl@proton.me',
   },
   resume: {
-    fileUrl:
-      '', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '',
   },
   skills: [
-  // Programming & Frameworks
-  'Python',
-  'Flask',
-  'C#',
-  '.NET',
-  'Blazor',
-  'WinForms',
-  'Node.js',
-  'Semantic Release',
-  'PowerShell Automation',
+    // Programming & Frameworks
+    'Python',
+    'Flask',
+    'C#',
+    '.NET',
+    'Blazor',
+    'WinForms',
+    'Node.js',
+    'Godot Engine (4.4)',
+    'Semantic Release',
+    'PowerShell (PS1)',
+    'VB 6.0',
+    'C Programming',
 
-  // Software & Tools
-  'Git & GitHub',
-  'CI/CD',
-  'PyInstaller',
-  'Excel',
-  'Word',
-  'PowerPoint',
+    // Software & Tools
+    'Git & GitHub',
+    'CI/CD',
+    'PyInstaller',
+    'Inno Setup (Inno Script Wizard)',
+    'Excel',
+    'Word',
+    'PowerPoint',
+    'Access 2003',
+    'SQL',
 
-  // Security & Networking
-  'Threat Awareness',
-  'Digital Hygiene',
-  'Data Protection',
-  'Network Fundamentals',
+    // Security & Networking
+    'Cybersecurity Fundamentals',
+    'Digital Hygiene',
+    'Threat Awareness',
+    'Data Protection',
+    'Packet Tracer',
+    'Routing & Switching',
+    'WAN Technologies',
+    'Windows Server 2003',
 
-  // Professional
-  'Workflow Automation',
-  'Debugging & Error Tracing',
-  'Open Source Etiquette',
-  'Documentation & README Design'
-],
-
+    // Professional & Academic
+    'Workflow Automation',
+    'Debugging & Error Tracing',
+    'Open Source Etiquette',
+    'Documentation & README Design',
+    'System Analysis',
+    'Logic Gates',
+    'Computer Maintenance & Upgrades',
+    'Microprocessors & Microcontrollers',
+    'Office Applications',
+  ],
   experiences: [
-  {
-    company: 'The Holding Company for Water and Wastewater',
-    position: 'Operating Technician',
-    from: 'October 2023',
-    to: 'Present',
-    companyLink: 'https://www.hcww.com.eg',
-  },
-  {
-    company: 'Indie Developer & Founder',
-    position: 'Solo Developer / Product Builder',
-    from: '2024',
-    to: 'Present',
-    companyLink: 'https://github.com/OmegaCrimson',
-  },
-],
-
+    {
+      company: 'The Holding Company for Water and Wastewater',
+      position: 'Operating Technician',
+      from: 'October 2023',
+      to: 'Present',
+      companyLink: 'https://www.hcww.com.eg',
+    },
+    {
+      company: 'Indie Developer & Founder',
+      position: 'Solo Developer / Product Builder',
+      from: '2024',
+      to: 'Present',
+      companyLink: 'https://github.com/OmegaCrimson',
+    },
+  ],
   certifications: [
     {
       name: 'Foundational C# Certification',
@@ -138,90 +139,58 @@ const CONFIG = {
       year: 'November 2025',
       link: 'https://www.credly.com/badges/6f7af68b-879a-43ad-8792-703c50fc6852/public_url',
     },
+    {
+      name: 'Cybersecurity Fundamentals – IBM SkillsBuild',
+      body: 'Covers essential cybersecurity concepts including threat modeling, risk management, and secure practices. Ideal for aspiring security professionals.',
+      year: '2025',
+      link: 'https://www.credly.com/badges/f4079f07-66a8-4841-a771-51a9fc568c9b/public_url',
+    },
+    {
+      name: 'Digital Literacy – IBM SkillsBuild',
+      body: 'Introduces foundational digital skills including online safety, productivity tools, and responsible internet use.',
+      year: '2025',
+      link: 'https://www.credly.com/badges/7a755616-347d-4085-a606-24fd28497637/public_url',
+    },
+    {
+      name: 'Digital Mindset – IBM SkillsBuild',
+      body: 'Explores the mindset and skills needed to thrive in a digital-first world, including adaptability, collaboration, and innovation.',
+      year: '2025',
+      link: 'https://www.credly.com/badges/1e24dbad-ea08-402e-8e4f-4e2672c1d28d/public_url',
+    },
+    {
+      name: 'Getting Started with Cybersecurity – IBM SkillsBuild',
+      body: 'An introductory course on cybersecurity principles, common threats, and basic protection strategies.',
+      year: '2025',
+      link: 'https://www.credly.com/badges/6838fcfb-8fef-4e04-9d6d-1fb0a8d88366/public_url',
+    },
   ],
-  educations: [
- //   {
-//   institution: 'Institution Name',
-   //   degree: 'Degree',
-  //    from: '2024',
-   //   to: 'Present',
-    //},
-  ],
-  publications: [
-  ],
-  // Display articles from your medium or dev account. (Optional)
+  educations: [],
+  publications: [],
   blog: {
-    source: 'dev', // medium | dev
-    username: '', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    source: 'dev',
+    username: '',
+    limit: 2,
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-XXXXXXXXXX', // Replace with your actual GA4 ID
   },
-  // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
     defaultTheme: 'lofi',
-
-    // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
     disableSwitch: false,
-
-    // Should use the prefers-color-scheme media-query,
-    // using user system preferences, instead of the hardcoded defaultTheme
     respectPrefersColorScheme: false,
-
-    // Display the ring in Profile picture
     displayAvatarRing: true,
-
-    // Available themes. To remove any theme, exclude from here.
     themes: [
       'light',
       'dark',
- //     'cupcake',
-  //    'bumblebee',
- //     'emerald',
- //     'corporate',
-//      'synthwave',
-//      'retro',
-  //    'cyberpunk',
-//      'valentine',
-//      'halloween',
-   //   'garden',
-   //   'forest',
-//      'aqua',
- //     'lofi',
-  //    'pastel',
-  //    'fantasy',
- //     'wireframe',
       'black',
       'luxury',
       'dracula',
- //     'cmyk',
-  //    'autumn',
       'business',
-//      'acid',
-//      'lemonade',
       'night',
-    //  'coffee',
- //     'winter',
-//      'dim',
- //     'nord',
- //     'sunset',
- //     'caramellatte',
       'abyss',
-   //   'silk',
-      //'procyon',
     ],
   },
-
-  // Optional Footer. Supports plain text or HTML.
-  //footer: `Made with <a 
-     // class="text-primary" href="https://github.com/arifszn/gitprofile"
-   //   target="_blank"
-    //  rel="noreferrer"
-  //  >GitProfile</a> and ❤️`,
-
   enablePWA: true,
 };
 
